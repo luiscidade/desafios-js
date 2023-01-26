@@ -1,0 +1,32 @@
+div#res{
+    background-color: lightgray;
+}
+
+div#forms{
+    line-height: 40px;
+    margin: 10px;
+}
+
+section{
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+header{
+    text-align: center;
+}
+p#res{
+    text-align: justify;
+}
+
+body{
+    background-color: lightblue;
+}
+
+footer{
+    line-height: 75px;
+    text-align: center;
+}

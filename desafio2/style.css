@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(60, 166, 201);
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+}
+
+section{
+    height: 600px;
+    width: 700px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#formulario{
+    margin: 20px;
+    line-height: 50px;
+}
+
+footer{
+    height: 75px;
+    text-align: center;
+    font-size: large;
+    line-height: 75px;
+    color: bisque;
+}
+
+div#res{
+    text-align: center;
+}
+
+img#img_res{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}

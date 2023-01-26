@@ -1,0 +1,37 @@
+header{
+    text-align: center;
+}
+
+section{
+    margin: auto;
+    background-color: lightgray;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px; /* arredondamento das bordas da div*/
+}
+
+body{
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    line-height: 50px;
+}
+
+div#horario{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+}
+
+div#fot_horario{
+    text-align: center;
+}
+
+div#fot_horario > img {
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+
+}

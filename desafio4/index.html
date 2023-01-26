@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="form">
+            <label for="num">Número: </label><input type="number" name="num" id="num">
+            <input type="button" value="Calcular Tabuada" onclick="calcular()">
+        </div>
+        <div id="res">
+
+        </div>
+    </main>
+    <script>
+       function calcular(){
+            var n = Number(document.getElementById('num').value);
+            var div_res = document.getElementById('res');
+            var string_tab = "";
+
+            if (typeof(n) == 'number'){
+
+                for (var i = 1; i <= 10; i++){
+                    res = n * i;
+                    string_tab += `${n} x ${i} = ${res}` + "\n";
+                }
+
+                div_res.innerText = `${string_tab}`;
+                div_res.style.backgroundColor = '#c4f3c4de'
+                
+
+            } else {
+                alert('ERRO');
+            }
+       } 
+    </script>
+</body>
+</html>
